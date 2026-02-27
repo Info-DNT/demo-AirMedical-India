@@ -1,0 +1,24 @@
+# Static Website — Air Medical 24X7
+
+# System / OS files
+.DS_Store
+Thumbs.db
+
+# Editor metadata
+.idea/
+.vscode/
+*.suo
+*.user
+
+# Environment / secrets
+*.env
+*.env.*
+
+# Archive files
+**/*.zip
+**/*.tar.gz
+**/*.tar
+
+# Deployment platform caches
+.vercel
+.netlify

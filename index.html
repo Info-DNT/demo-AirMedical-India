@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#1B2B5E" />
+    <meta name="description"
+        content="Air Medical 24X7 - World-class air ambulance and medical evacuation services available 24/7. DGCA Approved &amp; ISO Certified. Serving 150+ countries." />
+    <meta name="keywords"
+        content="air ambulance India, medical evacuation, air ambulance UAE, emergency medical transport, DGCA approved air ambulance, medical repatriation" />
+    <title>Air Medical 24X7 | Air Ambulance &amp; Medical Evacuation Services</title>
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Air Medical 24X7 - Air Ambulance &amp; Medical Evacuation" />
+    <meta property="og:description"
+        content="24/7 global air ambulance and medical repatriation services. DGCA Approved &amp; ISO Certified." />
+    <meta property="og:type" content="website" />
+
+    <!-- Schema.org JSON-LD -->
+    <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MedicalBusiness",
+    "name": "Air Medical 24X7",
+    "description": "Air ambulance and medical evacuation services available 24/7 worldwide",
+    "telephone": ["+971565542001", "+97143230261", "+918800028727"],
+    "email": "info@airmedical24x7.com",
+    "openingHours": "Mo-Su 00:00-23:59",
+    "areaServed": "Worldwide"
+  }
+  </script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@500;700;800&display=swap"
+        rel="stylesheet" />
+
+    <!-- Bootstrap 5.3 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+    <!-- ===== EMERGENCY ANNOUNCEMENT BAR ===== -->
+    <div class="emergency-bar" data-testid="emergency-bar">
+        <div class="container">
+            <div class="d-flex justify-content-center align-items-center flex-wrap gap-2 gap-md-4 text-center">
+                <span class="eb-item">
+                    <i class="bi bi-telephone-fill me-1"></i>
+                    <a href="tel:+971565542001" data-testid="emergency-phone1">+971 56 554 2001</a>
+                </span>
+                <span class="eb-sep d-none d-sm-inline">|</span>
+                <span class="eb-item">
+                    <i class="bi bi-telephone-fill me-1"></i>
+                    <a href="tel:+97143230261" data-testid="emergency-phone2">+971 4 323 0261</a>
+                </span>
+                <span class="eb-sep d-none d-md-inline">|</span>
+                <span class="eb-item d-none d-md-inline">
+                    <i class="bi bi-telephone-fill me-1"></i>
+                    <a href="tel:+918800028727" data-testid="emergency-phone3">+91 88000 28727</a>
+                </span>
+                <span class="eb-sep d-none d-lg-inline">|</span>
+                <span class="eb-item d-none d-lg-inline">
+                    <i class="bi bi-whatsapp me-1"></i>
+                    <a href="https://wa.me/971565542001?text=I%20need%20emergency%20air%20ambulance%20service"
+                        target="_blank" data-testid="emergency-whatsapp">WhatsApp Us</a>
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== STICKY NAVBAR ===== -->
+    <nav class="navbar navbar-expand-lg" id="mainNav" data-testid="main-navbar">
+        <div class="container">
+            <a class="navbar-brand" href="#home" data-testid="navbar-brand">
+                <img src="https://customer-assets.emergentagent.com/job_bootstrap-static/artifacts/vx56oyfp_image.png"
+                    alt="Air Medical 24X7" class="nav-logo" />
+            </a>
+            <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-label="Toggle navigation" data-testid="navbar-toggler">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto gap-1">
+                    <li class="nav-item"><a class="nav-link" href="#services" data-testid="nav-services">Services</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#why-us" data-testid="nav-why-us">Why Choose Us</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#process" data-testid="nav-process">Process</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#testimonials"
+                            data-testid="nav-testimonials">Testimonials</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact" data-testid="nav-contact">Contact</a></li>
+                </ul>
+                <div class="d-flex flex-column flex-lg-row gap-2 mt-3 mt-lg-0">
+                    <a href="tel:+971565542001" class="btn btn-danger btn-sm fw-semibold px-3"
+                        data-testid="nav-emergency-btn">
+                        <i class="bi bi-telephone-fill me-1"></i> Emergency
+                    </a>
+                    <a href="https://wa.me/971565542001?text=I%20need%20air%20ambulance%20service"
+                        class="btn btn-success btn-sm fw-semibold px-3" target="_blank" data-testid="nav-whatsapp-btn">
+                        <i class="bi bi-whatsapp me-1"></i> WhatsApp
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ===== HERO SECTION ===== -->
+    <section class="hero-section" id="home" data-testid="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="container position-relative h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-lg-7 hero-content" data-testid="hero-content">
+                    <div class="hero-badge mb-3" data-testid="hero-badge">
+                        <i class="bi bi-shield-check me-2"></i>DGCA Approved &bull; ISO Certified &bull; CAMTS
+                        Accredited
+                    </div>
+                    <h1 class="hero-title" data-testid="hero-title">
+                        Critical Care in the Air &mdash;<br>
+                        <span class="text-danger">Anywhere, Anytime</span>
+                    </h1>
+                    <p class="hero-subtitle" data-testid="hero-subtitle">
+                        World-class air ambulance and medical evacuation services available 24/7.
+                        Trusted by hospitals, insurance companies, and families across 150+ countries.
+                    </p>
+                    <div class="d-flex flex-wrap gap-3 mb-4">
+                        <button class="btn btn-danger btn-lg hero-btn-primary pulse-btn" data-bs-toggle="modal"
+                            data-bs-target="#quoteModal" data-testid="hero-quote-btn">
+                            <i class="bi bi-clipboard2-pulse me-2"></i>Get Free Quotation
+                        </button>
+                        <a href="#services" class="btn btn-outline-light btn-lg" data-testid="hero-services-btn">
+                            <i class="bi bi-grid-3x3-gap me-2"></i>Our Services
+                        </a>
+                    </div>
+                    <div class="d-flex flex-wrap gap-3 hero-trust-badges" data-testid="hero-trust-badges">
+                        <span class="trust-pill"><i class="bi bi-patch-check-fill me-1"></i>ISO Certified</span>
+                        <span class="trust-pill"><i class="bi bi-airplane me-1"></i>DGCA Approved</span>
+                        <span class="trust-pill"><i class="bi bi-people-fill me-1"></i>17,000+ Patients</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#stats" class="scroll-indicator" aria-label="Scroll down">
+            <div class="scroll-mouse">
+                <div class="scroll-dot"></div>
+            </div>
+        </a>
+    </section>
+
+    <!-- ===== STATS COUNTER BAR ===== -->
+    <section class="stats-section" id="stats" data-testid="stats-section">
+        <div class="container">
+            <div class="row g-0">
+                <div class="col-6 col-md-3 stat-item" data-testid="stat-patients">
+                    <div class="stat-inner">
+                        <div class="stat-num-wrap">
+                            <span class="stat-number" data-target="17000">0</span>
+                            <span class="stat-suffix">+</span>
+                        </div>
+                        <div class="stat-label">Patients Served</div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 stat-item" data-testid="stat-countries">
+                    <div class="stat-inner">
+                        <div class="stat-num-wrap">
+                            <span class="stat-number" data-target="150">0</span>
+                            <span class="stat-suffix">+</span>
+                        </div>
+                        <div class="stat-label">Countries Covered</div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 stat-item" data-testid="stat-years">
+                    <div class="stat-inner">
+                        <div class="stat-num-wrap">
+                            <span class="stat-number" data-target="15">0</span>
+                            <span class="stat-suffix">+</span>
+                        </div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 stat-item" data-testid="stat-ops">
+                    <div class="stat-inner">
+                        <div class="stat-num-wrap">
+                            <span class="stat-number" data-target="24">0</span>
+                            <span class="stat-suffix">/7</span>
+                        </div>
+                        <div class="stat-label">Operations</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SERVICES SECTION ===== -->
+    <section class="services-section section-pad" id="services" data-testid="services-section">
+        <div class="container">
+            <div class="section-header text-center mb-5" data-testid="services-header">
+                <span class="section-eyebrow">OUR SERVICES</span>
+                <h2 class="section-title">Medical Evacuation Services</h2>
+                <p class="section-sub">Comprehensive air medical services tailored to every critical care need,
+                    available around the clock worldwide.</p>
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4" data-testid="services-grid">
+
+                <div class="col" data-testid="service-air-ambulance">
+                    <article class="svc-card card h-100 border-0">
+                        <div class="card-body p-4">
+                            <div class="svc-icon-wrap mb-3"><i class="bi bi-airplane svc-icon"></i></div>
+                            <h3 class="svc-title">Air Ambulance</h3>
+                            <p class="svc-desc">Fully equipped ICU aircraft for critical patients. Dedicated medical
+                                crew for continuous in-flight care.</p>
+                            <a href="#contact" class="svc-link">Learn More <i class="bi bi-arrow-right ms-1"></i></a>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="col" data-testid="service-stretcher">
+                    <article class="svc-card card h-100 border-0">
+                        <div class="card-body p-4">
+                            <div class="svc-icon-wrap mb-3"><i class="bi bi-person-wheelchair svc-icon"></i></div>
+                            <h3 class="svc-title">Commercial Stretcher Service</h3>
+                            <p class="svc-desc">Cost-effective stretcher arrangements on commercial flights for stable
+                                patients requiring long-distance transfers.</p>
+                            <a href="#contact" class="svc-link">Learn More <i class="bi bi-arrow-right ms-1"></i></a>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="col" data-testid="service-escort">
+                    <article class="svc-card card h-100 border-0">
+                        <div class="card-body p-4">
+                            <div class="svc-icon-wrap mb-3"><i class="bi bi-heart-pulse svc-icon"></i></div>
+                            <h3 class="svc-title">Medical Escort Service</h3>
+                            <p class="svc-desc">Trained nurses or paramedics accompanying patients on commercial flights
+                                for safe and comfortable travel.</p>
+                            <a href="#contact" class="svc-link">Learn More <i class="bi bi-arrow-right ms-1"></i></a>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="col" data-testid="service-neonatal">
+                    <article class="svc-card card h-100 border-0">
+                        <div class="card-body p-4">
+                            <div class="svc-icon-wrap mb-3"><i class="bi bi-hospital svc-icon"></i></div>
+                            <h3 class="svc-title">Neonatal &amp; Pediatric Transfer</h3>
+                            <p class="svc-desc">Specialized transport for newborns and children with NICU-equipped
+                                aircraft and expert neonatal teams.</p>
+                            <a href="#contact" class="svc-link">Learn More <i class="bi bi-arrow-right ms-1"></i></a>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="col" data-testid="service-organ">
+                    <article class="svc-card card h-100 border-0">
+                        <div class="card-body p-4">
+                            <div class="svc-icon-wrap mb-3"><i class="bi bi-capsule svc-icon"></i></div>
+                            <h3 class="svc-title">Organ Transport</h3>
+                            <p class="svc-desc">Time-critical organ transportation with temperature-controlled
+                                containers and dedicated flight coordination.</p>
+                            <a href="#contact" class="svc-link">Learn More <i class="bi bi-arrow-right ms-1"></i></a>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="col" data-testid="service-repatriation">
+                    <article class="svc-card card h-100 border-0">
+                        <div class="card-body p-4">
+                            <div class="svc-icon-wrap mb-3"><i class="bi bi-globe-americas svc-icon"></i></div>
+                            <h3 class="svc-title">Medical Repatriation</h3>
+                            <p class="svc-desc">Safe return of patients to their home country with comprehensive
+                                coordination and documentation support.</p>
+                            <a href="#contact" class="svc-link">Learn More <i class="bi bi-arrow-right ms-1"></i></a>
+                        </div>
+                    </article>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== WHY CHOOSE US ===== -->
+    <section class="why-section section-pad" id="why-us" data-testid="why-us-section">
+        <div class="container">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-5" data-testid="why-us-images">
+                    <div class="why-image-grid">
+                        <div class="why-img-main">
+                            <img src="https://images.unsplash.com/photo-1742115927117-56414a78c944?crop=entropy&cs=srgb&fm=jpg&ixlib=rb-4.1.0&q=85&w=800"
+                                alt="Air Ambulance Helicopter in Flight" class="img-fluid rounded-3 shadow-lg" />
+                        </div>
+                        <div class="why-img-side">
+                            <img src="https://images.pexels.com/photos/8942991/pexels-photo-8942991.jpeg?auto=compress&cs=tinysrgb&w=400"
+                                alt="Medical Team" class="img-fluid rounded-3 shadow mb-3" />
+                            <img src="https://images.pexels.com/photos/5452293/pexels-photo-5452293.jpeg?auto=compress&cs=tinysrgb&w=400"
+                                alt="Patient Care" class="img-fluid rounded-3 shadow" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7" data-testid="why-us-features">
+                    <span class="section-eyebrow">WHY CHOOSE US</span>
+                    <h2 class="section-title">Trusted Across the Globe for Critical Care Transport</h2>
+                    <p class="text-muted mb-4">We combine aviation excellence with advanced medical expertise to provide
+                        the highest standard of care during transport.</p>
+                    <div class="feature-list">
+                        <div class="feature-item" data-testid="feature-experience">
+                            <div class="feat-icon-wrap"><i class="bi bi-award-fill feat-icon"></i></div>
+                            <div>
+                                <h5 class="feat-title">15+ Years Experience</h5>
+                                <p class="feat-desc">Decades of specialized experience in air medical transport and
+                                    critical care evacuation.</p>
+                            </div>
+                        </div>
+                        <div class="feature-item" data-testid="feature-icu">
+                            <div class="feat-icon-wrap"><i class="bi bi-heart-pulse-fill feat-icon"></i></div>
+                            <div>
+                                <h5 class="feat-title">ICU-Equipped Aircraft</h5>
+                                <p class="feat-desc">Every aircraft is equipped with full ICU-level medical equipment
+                                    and essential medications.</p>
+                            </div>
+                        </div>
+                        <div class="feature-item" data-testid="feature-doctors">
+                            <div class="feat-icon-wrap"><i class="bi bi-person-badge-fill feat-icon"></i></div>
+                            <div>
+                                <h5 class="feat-title">Expert Medical Team</h5>
+                                <p class="feat-desc">Flight physicians, nurses, and paramedics trained in critical care
+                                    transport medicine.</p>
+                            </div>
+                        </div>
+                        <div class="feature-item" data-testid="feature-global">
+                            <div class="feat-icon-wrap"><i class="bi bi-globe2 feat-icon"></i></div>
+                            <div>
+                                <h5 class="feat-title">Global Network</h5>
+                                <p class="feat-desc">Operations in 150+ countries with 24/7 ground handling and hospital
+                                    coordination.</p>
+                            </div>
+                        </div>
+                        <div class="feature-item" data-testid="feature-bedtobed">
+                            <div class="feat-icon-wrap"><i class="bi bi-hospital-fill feat-icon"></i></div>
+                            <div>
+                                <h5 class="feat-title">Bed-to-Bed Service</h5>
+                                <p class="feat-desc">Complete coordination from origin hospital to destination including
+                                    ground transport.</p>
+                            </div>
+                        </div>
+                        <div class="feature-item" data-testid="feature-insurance">
+                            <div class="feat-icon-wrap"><i class="bi bi-shield-check-fill feat-icon"></i></div>
+                            <div>
+                                <h5 class="feat-title">Insurance Assistance</h5>
+                                <p class="feat-desc">Expert guidance on insurance claims and pre-authorization for
+                                    seamless billing.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PROCESS / HOW IT WORKS ===== -->
+    <section class="process-section section-pad" id="process" data-testid="process-section">
+        <div class="container">
+            <div class="section-header text-center mb-5" data-testid="process-header">
+                <span class="section-eyebrow">HOW IT WORKS</span>
+                <h2 class="section-title">Simple. Fast. Life-Saving.</h2>
+                <p class="section-sub">Our streamlined process ensures rapid response when every minute counts.</p>
+            </div>
+            <div class="process-timeline" data-testid="process-timeline">
+                <div class="proc-step" data-testid="process-step-1">
+                    <div class="proc-num">01</div>
+                    <div class="proc-icon-wrap"><i class="bi bi-telephone-fill proc-icon"></i></div>
+                    <h4 class="proc-title">Contact Us</h4>
+                    <p class="proc-desc">Call our 24/7 emergency hotline or fill the quote form. We respond within
+                        minutes.</p>
+                </div>
+                <div class="proc-connector"></div>
+                <div class="proc-step" data-testid="process-step-2">
+                    <div class="proc-num">02</div>
+                    <div class="proc-icon-wrap"><i class="bi bi-clipboard2-pulse-fill proc-icon"></i></div>
+                    <h4 class="proc-title">Medical Assessment</h4>
+                    <p class="proc-desc">Our medical team evaluates the patient's condition to assign the right aircraft
+                        and crew.</p>
+                </div>
+                <div class="proc-connector"></div>
+                <div class="proc-step" data-testid="process-step-3">
+                    <div class="proc-num">03</div>
+                    <div class="proc-icon-wrap"><i class="bi bi-map-fill proc-icon"></i></div>
+                    <h4 class="proc-title">Flight Planning</h4>
+                    <p class="proc-desc">Flight routing, permits, ground ambulance, and receiving hospital all confirmed
+                        in advance.</p>
+                </div>
+                <div class="proc-connector"></div>
+                <div class="proc-step" data-testid="process-step-4">
+                    <div class="proc-num">04</div>
+                    <div class="proc-icon-wrap"><i class="bi bi-check-circle-fill proc-icon"></i></div>
+                    <h4 class="proc-title">Safe Transfer</h4>
+                    <p class="proc-desc">Patient transferred safely bed-to-bed with continuous medical monitoring
+                        throughout.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== EMERGENCY CTA ===== -->
+    <section class="emergency-cta section-pad" id="contact" data-testid="emergency-cta-section">
+        <div class="container text-center">
+            <h2 class="ecta-title mb-2" data-testid="emergency-cta-title">Every Second Counts in a Medical Emergency
+            </h2>
+            <p class="ecta-sub mb-4">Our dispatch team is ready 24/7. Contact your nearest Air Medical 24X7 office
+                immediately.</p>
+            <div class="row g-3 justify-content-center mb-4" data-testid="city-buttons">
+                <div class="col-6 col-sm-4 col-md-auto">
+                    <a href="tel:+918800028727" class="btn city-btn w-100" data-testid="city-btn-delhi">
+                        <i class="bi bi-geo-alt-fill me-2"></i>Delhi
+                    </a>
+                </div>
+                <div class="col-6 col-sm-4 col-md-auto">
+                    <a href="tel:+918800028727" class="btn city-btn w-100" data-testid="city-btn-mumbai">
+                        <i class="bi bi-geo-alt-fill me-2"></i>Mumbai
+                    </a>
+                </div>
+                <div class="col-6 col-sm-4 col-md-auto">
+                    <a href="tel:+918800028727" class="btn city-btn w-100" data-testid="city-btn-bangalore">
+                        <i class="bi bi-geo-alt-fill me-2"></i>Bangalore
+                    </a>
+                </div>
+                <div class="col-6 col-sm-4 col-md-auto">
+                    <a href="tel:+918800028727" class="btn city-btn w-100" data-testid="city-btn-chennai">
+                        <i class="bi bi-geo-alt-fill me-2"></i>Chennai
+                    </a>
+                </div>
+                <div class="col-6 col-sm-4 col-md-auto">
+                    <a href="tel:+971565542001" class="btn city-btn w-100" data-testid="city-btn-dubai">
+                        <i class="bi bi-geo-alt-fill me-2"></i>Dubai
+                    </a>
+                </div>
+            </div>
+            <div class="d-flex flex-wrap justify-content-center gap-3">
+                <a href="tel:+971565542001" class="btn btn-light btn-lg ecta-main-btn" data-testid="emergency-call-btn">
+                    <i class="bi bi-telephone-fill me-2"></i>+971 56 554 2001
+                </a>
+                <a href="https://wa.me/971565542001?text=I%20need%20emergency%20air%20ambulance%20service"
+                    class="btn btn-success btn-lg" target="_blank" data-testid="emergency-whatsapp-btn">
+                    <i class="bi bi-whatsapp me-2"></i>WhatsApp Us Now
+                </a>
+                <button class="btn btn-outline-light btn-lg" data-bs-toggle="modal" data-bs-target="#quoteModal"
+                    data-testid="emergency-quote-btn">
+                    <i class="bi bi-clipboard2-pulse me-2"></i>Get Free Quote
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== TESTIMONIALS ===== -->
+    <section class="testi-section section-pad" id="testimonials" data-testid="testimonials-section">
+        <div class="container">
+            <div class="section-header text-center mb-5" data-testid="testimonials-header">
+                <span class="section-eyebrow">TESTIMONIALS</span>
+                <h2 class="section-title">Trusted by Families Worldwide</h2>
+                <p class="section-sub">Real stories from patients and families who trusted us with their most critical
+                    moments.</p>
+            </div>
+            <div id="testimonialsCarousel" class="carousel slide" data-bs-ride="carousel"
+                data-testid="testimonials-carousel">
+                <div class="carousel-indicators testi-indicators">
+                    <button type="button" data-bs-target="#testimonialsCarousel" data-bs-slide-to="0" class="active"
+                        aria-current="true"></button>
+                    <button type="button" data-bs-target="#testimonialsCarousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#testimonialsCarousel" data-bs-slide-to="2"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-testid="testimonial-1">
+                        <div class="testi-card">
+                            <div class="testi-avatar mx-auto mb-3">
+                                <img src="https://ui-avatars.com/api/?name=Rajesh+Sharma&background=1B2B5E&color=fff&size=80&bold=true"
+                                    alt="Rajesh Sharma" class="rounded-circle" />
+                            </div>
+                            <div class="testi-stars mb-2">
+                                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                    class="bi bi-star-fill"></i>
+                            </div>
+                            <blockquote class="testi-text">"Air Medical 24X7 transported my father from Dubai to Delhi
+                                in critical condition. The medical team was exceptional — professional, compassionate,
+                                and highly skilled. My father recovered fully. Forever grateful."</blockquote>
+                            <p class="testi-author">Rajesh Sharma</p>
+                            <p class="testi-location"><i class="bi bi-geo-alt me-1"></i>New Delhi, India</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-testid="testimonial-2">
+                        <div class="testi-card">
+                            <div class="testi-avatar mx-auto mb-3">
+                                <img src="https://ui-avatars.com/api/?name=Sarah+Al+Mansoori&background=DC3545&color=fff&size=80&bold=true"
+                                    alt="Sarah Al Mansoori" class="rounded-circle" />
+                            </div>
+                            <div class="testi-stars mb-2">
+                                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                    class="bi bi-star-fill"></i>
+                            </div>
+                            <blockquote class="testi-text">"We needed urgent repatriation for my mother from the UK to
+                                UAE. Air Medical 24X7 handled everything — paperwork, coordination, medical crew.
+                                Completely seamless. I cannot thank them enough."</blockquote>
+                            <p class="testi-author">Sarah Al Mansoori</p>
+                            <p class="testi-location"><i class="bi bi-geo-alt me-1"></i>Abu Dhabi, UAE</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-testid="testimonial-3">
+                        <div class="testi-card">
+                            <div class="testi-avatar mx-auto mb-3">
+                                <img src="https://ui-avatars.com/api/?name=Dr+Priya+Menon&background=198754&color=fff&size=80&bold=true"
+                                    alt="Dr. Priya Menon" class="rounded-circle" />
+                            </div>
+                            <div class="testi-stars mb-2">
+                                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                    class="bi bi-star-fill"></i>
+                            </div>
+                            <blockquote class="testi-text">"As a hospital administrator, I have worked with many air
+                                ambulance providers. Air Medical 24X7 consistently delivers the highest standard of
+                                care. Their response time and medical expertise are truly unmatched."</blockquote>
+                            <p class="testi-author">Dr. Priya Menon</p>
+                            <p class="testi-location"><i class="bi bi-geo-alt me-1"></i>Hospital Administrator, Mumbai
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#testimonialsCarousel"
+                    data-bs-slide="prev" data-testid="carousel-prev">
+                    <div class="testi-nav-btn"><i class="bi bi-chevron-left"></i></div>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#testimonialsCarousel"
+                    data-bs-slide="next" data-testid="carousel-next">
+                    <div class="testi-nav-btn"><i class="bi bi-chevron-right"></i></div>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== COVERAGE ===== -->
+    <section class="coverage-section section-pad" data-testid="coverage-section">
+        <div class="container">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-6" data-testid="coverage-text">
+                    <span class="section-eyebrow">GLOBAL COVERAGE</span>
+                    <h2 class="section-title">Worldwide Medical Transport Network</h2>
+                    <p class="text-muted mb-4">Our global network ensures that no matter where you are, help is just a
+                        call away. From major cities to remote locations, we operate across every continent.</p>
+                    <div class="row g-3">
+                        <div class="col-6">
+                            <div class="cov-stat" data-testid="coverage-stat-cities">
+                                <span class="cov-num">500+</span>
+                                <span class="cov-label">Cities Covered</span>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="cov-stat" data-testid="coverage-stat-countries">
+                                <span class="cov-num">150+</span>
+                                <span class="cov-label">Countries</span>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="cov-stat" data-testid="coverage-stat-ops">
+                                <span class="cov-num">24/7</span>
+                                <span class="cov-label">Operations</span>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="cov-stat" data-testid="coverage-stat-bases">
+                                <span class="cov-num">5</span>
+                                <span class="cov-label">Regional Bases</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-wrap gap-2 mt-4">
+                        <a href="#contact" class="btn btn-danger px-4 fw-semibold" data-testid="coverage-cta-btn">
+                            <i class="bi bi-telephone me-2"></i>Contact Us Now
+                        </a>
+                        <button class="btn btn-outline-primary px-4 fw-semibold" data-bs-toggle="modal"
+                            data-bs-target="#quoteModal" data-testid="coverage-quote-btn">
+                            <i class="bi bi-clipboard2-pulse me-2"></i>Get a Quote
+                        </button>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-testid="coverage-map">
+                    <div class="cov-map-wrap">
+                        <img src="https://images.unsplash.com/photo-1570106413982-7f2897b8d0c5?crop=entropy&cs=srgb&fm=jpg&ixlib=rb-4.1.0&q=85&w=800"
+                            alt="Global Air Medical Coverage - World Map Network"
+                            class="img-fluid rounded-3 shadow-lg" />
+                        <div class="cov-badges">
+                            <span class="cov-badge"><i class="bi bi-airplane me-1"></i>India</span>
+                            <span class="cov-badge"><i class="bi bi-airplane me-1"></i>UAE</span>
+                            <span class="cov-badge"><i class="bi bi-airplane me-1"></i>Europe</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="site-footer" data-testid="footer">
+        <div class="container">
+            <div class="row g-4 pb-4 mb-4 footer-row">
+                <!-- Col 1: Brand -->
+                <div class="col-lg-3 col-md-6" data-testid="footer-about">
+                    <div class="footer-brand mb-3">
+                        <img src="https://customer-assets.emergentagent.com/job_bootstrap-static/artifacts/vx56oyfp_image.png"
+                            alt="Air Medical 24X7" class="footer-logo" />
+                    </div>
+                    <p class="footer-desc">India and UAE's trusted air ambulance and medical evacuation service
+                        provider. Available 24/7, worldwide.</p>
+                    <div class="footer-socials" data-testid="footer-social">
+                        <a href="#" class="social-ico" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="social-ico" aria-label="Twitter"><i class="bi bi-twitter-x"></i></a>
+                        <a href="#" class="social-ico" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                        <a href="#" class="social-ico" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+                        <a href="https://wa.me/971565542001" class="social-ico" aria-label="WhatsApp" target="_blank"><i
+                                class="bi bi-whatsapp"></i></a>
+                    </div>
+                </div>
+                <!-- Col 2: Links -->
+                <div class="col-lg-2 col-md-6 col-sm-6" data-testid="footer-links">
+                    <h5 class="footer-heading">Quick Links</h5>
+                    <ul class="footer-list">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#why-us">Why Choose Us</a></li>
+                        <li><a href="#process">Our Process</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+                <!-- Col 3: Offices -->
+                <div class="col-lg-4 col-md-6" data-testid="footer-offices">
+                    <h5 class="footer-heading">Our Offices</h5>
+                    <div class="footer-office mb-3" data-testid="footer-dubai">
+                        <p class="mb-1 fw-semibold text-white"><i class="bi bi-geo-alt-fill text-danger me-2"></i>Dubai,
+                            UAE (Headquarters)</p>
+                        <p class="mb-1 footer-contact-line"><a href="tel:+971565542001"><i
+                                    class="bi bi-telephone me-2"></i>+971 56 554 2001</a></p>
+                        <p class="mb-1 footer-contact-line"><a href="tel:+97143230261"><i
+                                    class="bi bi-telephone me-2"></i>+971 4 323 0261</a></p>
+                    </div>
+                    <div class="footer-office" data-testid="footer-india">
+                        <p class="mb-1 fw-semibold text-white"><i class="bi bi-geo-alt-fill text-danger me-2"></i>India
+                            Operations</p>
+                        <p class="mb-1 footer-contact-line"><a href="tel:+918800028727"><i
+                                    class="bi bi-telephone me-2"></i>+91 88000 28727</a></p>
+                        <p class="mb-0 footer-contact-line"><a href="mailto:info@airmedical24x7.com"><i
+                                    class="bi bi-envelope me-2"></i>info@airmedical24x7.com</a></p>
+                    </div>
+                </div>
+                <!-- Col 4: Newsletter -->
+                <div class="col-lg-3 col-md-6" data-testid="footer-newsletter">
+                    <h5 class="footer-heading">Stay Updated</h5>
+                    <p class="footer-desc">Get the latest updates on air medical transport and emergency health tips.
+                    </p>
+                    <form class="newsletter-form" id="newsletterForm" novalidate data-testid="newsletter-form">
+                        <div class="input-group">
+                            <input type="email" class="form-control newsletter-input" placeholder="Your email address"
+                                required data-testid="newsletter-email" />
+                            <button class="btn btn-danger" type="submit" data-testid="newsletter-submit">
+                                <i class="bi bi-send-fill"></i>
+                            </button>
+                        </div>
+                        <div class="invalid-feedback d-block" id="newsletter-feedback" style="display:none!important">
+                        </div>
+                    </form>
+                    <div class="d-flex flex-wrap gap-2 mt-3">
+                        <span class="cert-tag"><i class="bi bi-patch-check-fill me-1"></i>DGCA Approved</span>
+                        <span class="cert-tag"><i class="bi bi-award me-1"></i>ISO Certified</span>
+                    </div>
+                </div>
+            </div>
+            <hr class="footer-hr" />
+            <div class="footer-bottom d-flex flex-wrap justify-content-between align-items-center gap-3"
+                data-testid="footer-bottom">
+                <p class="mb-0 small">&copy; 2025 Air Medical 24X7. All Rights Reserved.</p>
+                <div class="d-flex flex-wrap gap-3 small">
+                    <span><i class="bi bi-shield-check me-1"></i>DGCA Approved</span>
+                    <span><i class="bi bi-award me-1"></i>ISO Certified</span>
+                    <span><i class="bi bi-patch-check me-1"></i>CAMTS Accredited</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ===== QUOTE MODAL ===== -->
+    <div class="modal fade" id="quoteModal" tabindex="-1" aria-labelledby="quoteModalLabel" aria-hidden="true"
+        data-testid="quote-modal">
+        <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content shadow-lg">
+                <div class="modal-header quote-header">
+                    <h4 class="modal-title text-white fw-bold" id="quoteModalLabel">
+                        <i class="bi bi-clipboard2-pulse me-2"></i>Get Free Air Ambulance Quotation
+                    </h4>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"
+                        data-testid="modal-close-btn"></button>
+                </div>
+                <div class="modal-body p-4">
+                    <p class="text-muted mb-4">Fill in the details below and our medical team will get back to you
+                        within 15 minutes.</p>
+                    <form id="quoteForm" class="needs-validation" novalidate data-testid="quote-form">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <label for="fullName" class="form-label fw-semibold">Full Name <span
+                                        class="text-danger">*</span></label>
+                                <input type="text" class="form-control" id="fullName" placeholder="Your full name"
+                                    required data-testid="form-full-name" />
+                                <div class="invalid-feedback">Please enter your full name.</div>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="phone" class="form-label fw-semibold">Phone Number <span
+                                        class="text-danger">*</span></label>
+                                <input type="tel" class="form-control" id="phone" placeholder="+971 or +91" required
+                                    data-testid="form-phone" />
+                                <div class="invalid-feedback">Please enter your phone number.</div>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="email" class="form-label fw-semibold">Email Address <span
+                                        class="text-danger">*</span></label>
+                                <input type="email" class="form-control" id="email" placeholder="your@email.com"
+                                    required data-testid="form-email" />
+                                <div class="invalid-feedback">Please enter a valid email address.</div>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="serviceType" class="form-label fw-semibold">Service Type <span
+                                        class="text-danger">*</span></label>
+                                <select class="form-select" id="serviceType" required data-testid="form-service-type">
+                                    <option value="" selected disabled>Select service type</option>
+                                    <option value="air-ambulance">Air Ambulance</option>
+                                    <option value="commercial-stretcher">Commercial Stretcher</option>
+                                    <option value="medical-escort">Medical Escort</option>
+                                    <option value="neonatal-transfer">Neonatal / Pediatric Transfer</option>
+                                    <option value="organ-transport">Organ Transport</option>
+                                    <option value="medical-repatriation">Medical Repatriation</option>
+                                </select>
+                                <div class="invalid-feedback">Please select a service type.</div>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="fromCity" class="form-label fw-semibold">From City / Country <span
+                                        class="text-danger">*</span></label>
+                                <input type="text" class="form-control" id="fromCity" placeholder="Origin city" required
+                                    data-testid="form-from-city" />
+                                <div class="invalid-feedback">Please enter origin location.</div>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="toCity" class="form-label fw-semibold">To City / Country <span
+                                        class="text-danger">*</span></label>
+                                <input type="text" class="form-control" id="toCity" placeholder="Destination city"
+                                    required data-testid="form-to-city" />
+                                <div class="invalid-feedback">Please enter destination location.</div>
+                            </div>
+                            <div class="col-12">
+                                <label for="message" class="form-label fw-semibold">Patient Condition &amp; Additional
+                                    Info</label>
+                                <textarea class="form-control" id="message" rows="3"
+                                    placeholder="Briefly describe the patient's condition, required medical equipment, etc."
+                                    data-testid="form-message"></textarea>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer bg-light">
+                    <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal"
+                        data-testid="modal-cancel-btn">Cancel</button>
+                    <button type="button" class="btn btn-danger btn-lg px-4 fw-semibold" id="submitQuoteBtn"
+                        data-testid="modal-submit-btn">
+                        <span class="btn-text-inner"><i class="bi bi-send me-2"></i>Submit Request</span>
+                        <span class="btn-spinner-inner d-none"><span
+                                class="spinner-border spinner-border-sm me-2"></span>Sending...</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== SUCCESS TOAST ===== -->
+    <div class="toast-container position-fixed bottom-0 end-0 p-3" style="z-index: 11000;">
+        <div id="successToast" class="toast align-items-center text-bg-success border-0" role="alert"
+            aria-live="assertive" aria-atomic="true" data-testid="success-toast">
+            <div class="d-flex">
+                <div class="toast-body fs-6">
+                    <i class="bi bi-check-circle-fill me-2"></i>
+                    Thank you! Our team will contact you within 15 minutes.
+                </div>
+                <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast"
+                    aria-label="Close"></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Back to Top -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top" data-testid="back-to-top-btn">
+        <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <!-- Bootstrap 5.3 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/app.js"></script>
+</body>
+
+</html>
